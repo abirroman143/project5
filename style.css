@@ -1,0 +1,345 @@
+
+/* Typography area start*/
+
+	@font-face{
+		font-family:"BalooBhai-Regular";
+		src:url('fonts/BalooBhai-Regular.woff') format('woff');
+
+	}
+
+	@font-face{
+		font-family:"Montserrat-Regular";
+		src:url('fonts/Montserrat-Regular.woff') format('woff');
+
+	}
+	h1{
+		font-family:BalooBhai-Regular;
+		text-transform:uppercase;
+		font-size:70px;
+		letter-spacing:2px;
+		
+	}
+	p{
+		font-family:Montserrat-Regular;
+		font-size:18px;
+	}
+	button{
+		font-family:Montserrat-Regular;
+		text-transform:uppercase;
+		font-size:14px;
+	}
+
+/* Typography area Ends */
+
+	body,ul,li{
+		margin:0;
+		padding:0;
+	}
+
+/* header-area start */
+
+	.header-area{
+		background:#f4f9f4;
+	}
+	.header-area:after{
+		content:'';
+		clear:both;
+		display:block;
+	}
+	.logo-area{
+		padding:0;
+		padding-left:15px;
+	}
+	
+	.menu {
+		background-color:#e2ede8;
+		font-family:BalooBhai-Regular;
+		margin-top:40px;
+		
+	}
+	.menu ul li{
+		margin-left:20px;
+	}
+	.menu ul li a{
+		font-size:20px;
+		color:#51605e;
+		border-radius:3px;
+	}
+	.menu ul li a:hover{
+		background-color:#c7d9d5;
+		display:inline-block;
+	}
+	.call-action{
+		background:#f4f9f4;
+		padding-bottom:150px;
+	}
+	.image-area img{
+		background-image:url('images/image-background.png');
+		background-position:center;
+		background-size:cover;
+		background-repeat:no-repeat;
+		padding:100px;
+		width:100%;
+		margin-top:120px;
+	}
+	.text-area{
+		margin-top:200px;
+		padding-left:30px;
+		text-align:center;
+		color:#6c9894;
+	}
+	.text-area p{
+		color:#6c9894;
+		letter-spacing:1px;
+	}
+	.text-area .btnn{
+		color:#FFFFFF;
+		background:#6c9894;
+		letter-spacing:1px;
+		margin-top:15px;
+	}
+	
+
+/* header-area Ends */
+
+/* Choose class area start */
+
+	.choose-class{
+		background:#6c9894;
+		padding:80px 0;
+		color:#FFFFFF;
+	}
+	.choose-class p{
+		padding-bottom:30px;
+	}
+	.rounded img{
+		background-image:url('images/background2.jpg');
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size:100% 100%;
+		padding:100px;
+		width:100%;
+		margin-top:-10px;
+	}
+	.rounded h2{
+		letter-spacing:1px;
+		
+	}
+	.rounded{
+		margin-bottom:20px;
+	}
+
+/* Choose class area Ends */
+
+/* our stats area start */
+
+	.our-stats{
+		background-image:url('images/background3.jpg');
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		padding:80px 0;
+		color:#6c9894;
+	}
+	.our-stats P{
+		margin-bottom:80px;
+	}
+	.border{
+		border:4px solid #6c9894;
+		height:300px;
+		width:300px;
+		border-radius:50%;
+		padding:40px;
+		margin:auto;
+		margin-bottom:30px;
+	}
+	.border h2{
+		font-size:70px;
+		font-family:BalooBhai-Regular;
+	}
+	
+/* our stats area Ends */
+
+
+/* best-instructor area start */
+
+	.best-instructor{
+		background:#6c9894;
+		color:#FFFFFF;
+	}
+	.text{
+		margin-top:180px;
+	}
+	.best{
+		padding:0;
+		margin:0;
+	}
+	.best img{
+		width:100%;
+		height:auto;
+	}
+	
+	.text .btnn2{
+		color:#6c9894;
+		background:#FFFFFF;
+		letter-spacing:1px;
+		margin-top:15px;
+		padding:15px 50px;
+		margin-bottom:20px;
+	}
+
+/* best-instructor area Ends */
+
+/* new-experience area start */
+
+	.new-experience{
+		background:#f4f9f4;
+		color:#6c9894;
+		
+	}
+	.best2{
+		padding:0;
+		margin:0;
+	}
+	.best2 img{
+		width:100%;
+		height:100%;
+	}
+	.text2{
+		background-image:url('images/bottom-image.png');
+		background-repeat:no-repeat;
+		background-position:right;
+		background-size:100% 100%;
+		margin-top:180px;
+	}
+		
+	.text2 p{
+		color:#6c9894;
+		letter-spacing:1px;
+	}
+	.text2 .btnn3{
+		color:#FFFFFF;
+		background:#6c9894;
+		letter-spacing:1px;
+		margin-top:15px;
+		padding:15px 50px;
+		margin-bottom:20px;
+	}
+	
+
+/* new-experience area Ends */
+
+/* pricing area start */
+	.pricing{
+		padding:80px 0;
+		background:#6c9894;
+		color:#FFFFFF;
+	}
+	.thumbnail{
+		margin:50px 0;
+		background:#f4f9f4;
+		color:#6c9894;
+	}
+	.thumbnail img{
+		padding-top:20px;
+		padding-bottom:40px;
+		
+	}
+	.thumbnail .btnn4{
+		color:#FFFFFF;
+		background:#6c9894;
+		letter-spacing:1px;
+		margin-top:15px;
+		padding:15px 50px;
+		margin-bottom:30px;
+	}
+
+/* pricing area Ends */
+
+/* Tainner area start */
+	.tainner{
+		background-image:url('images/background4.jpg');
+		background-position:center;
+		background-repeat:no-repeat;
+		background-size:100% 100%;
+		color:#6c9894;
+	}
+	.tainner-info{
+		padding:80px 0;
+	}
+	.tainner-info img{
+		background-image:url('images/image8.png');
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size:cover;
+		padding:40px;
+		margin-bottom:40px;
+	}
+
+/* Tainner area Ends */
+
+/* Subscribe area start */
+	.subscribe{
+		padding:80px 0;
+		background:#6c9894;
+		color:#FFFFFF;
+	}
+	.subscribe form{
+		margin:40px 0;
+	}
+	.btnn5 input[type="submit"]{
+		color:#6c9894;
+		font-family:BalooBhai-Regular;
+		font-size:18px;
+		letter-spacing:1px;
+	}
+	.subscribe form input[type="email"]{
+		
+		font-size:18px;
+		letter-spacing:1px;
+	}
+
+/* Subscribe area Ends */
+
+/* footer area start */
+
+	.footer-area{
+		color:#6c9894;
+		padding:40px 0;
+	}
+	.footer-area h2{
+		text-transform:capitalize;
+		font-size:30px;
+		font-family:BalooBhai-Regular;
+		letter-spacing:1px;
+	}
+	.footer{
+		margin:0 10px;
+	}
+	.footer-menu ul li{
+		margin:10px 0;
+	}
+	.footer-menu ul li a{
+		padding:0;
+		margin:0;
+		font-size:18px;
+		color:#6c9894;
+		text-transform:capitalize;
+		text-decoration:none;
+		font-family:BalooBhai-Regular;
+		letter-spacing:1px;
+	}
+	.footer-menu ul li a:hover{
+		display:inline-block;
+	}
+
+/* footer area Ends */
+
+
+
+@media all and (max-width: 992px){
+	h1{
+		font-size:30px;
+	}
+	
+}
